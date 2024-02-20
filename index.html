@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primer blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+<body>
+    <!--la etiqueta header sirve para agrupar links, alguna imagen o logo de nuestra página
+    y lo mas importante es que podemos crear tantas etiquetas de header como nosotros queramos
+    siempre y cuando esta cumpla con dos reglas, no podemos colocar un header dentro de un header
+    y no podemos colocar un header en un footer-->
+    <!--footer se usa para colocar el pie de página de nuestra página web el footer contiene cosas 
+    como el copyright, informacion de conntacto, informacion del sitio o como navegar en el, links
+    para volver al inicio de nuestra página-->
+    <!--section como su nombre indica sirve para definir secciones de nuestra aplicacion-->
+    <!--article sirve para definir contenido independiente funciona bien por ejemplo para definir
+    los posts de un blog donde podremos colocar un titulo, una imagen, una descripcion y un parrafo
+    que contendra todo el texto de nuestro post-->
+    <!--div tiene la misma funcionalidad que section, era muy utilizada antes de que saliera section
+    y article -->
+    <!--los parametros que se pasan en las etiquetas como por ejemplo id, se les conoce como atributo
+    nos sriven para interactuar con esos elementos ya sea mediante javascript o para poder asignarle
+    un estilo-->
+    <!--si quieres usar mas de un mismo texto para identificar se usa el atributo class-->
+    <!--con estos atributos podremos en javascript seleccionar los elementos, finalmente los atributos
+    nos sirven para identificar los elementos que luego pueden ser sleccionado con selectores -->
+    <header id="1">
+        <h1 id="title">Blog de Edward</h1>
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Titulo de mi post</h2>
+            <p>Descripcion de mi post</p>
+            <img src="img/guitarra.png" width="400"/>
+            <p>Texto del articulo que esta aca solo es texto de prueba, prueba es
+                una prueba
+            </p>
+        </article>
+        <article class="post">
+            <h2>Titulo de mi segundo post</h2>
+            <p>Descripcion de mi segundo post</p>
+            <img src="img/coffee.png" width="400"/>
+            <p>Texto del segundo articulo que esta aca solo es texto de prueba, prueba es
+                una prueba
+            </p>
+        </article>
+        <article class="post">
+            <h2>Titulo de mi tercer post</h2>
+            <p>Descripcion de mi tercer post</p>
+            <img src="img/monster.png" width="400"/>
+            <p>Texto del tercer articulo que esta aca solo es texto de prueba, prueba es
+                una prueba
+            </p>
+        </article>
+    </section>
+    <footer>
+        <section>
+        <a href="#1">Volver al inicio</a>
+        <a href="mailto:edwardandres2006@outlook.com">Contactame aqui</a>
+        </section>
+        <p>Copyright 2024 ©</p>
+    </footer>
+</body>
+</html>
